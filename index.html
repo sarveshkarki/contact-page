@@ -6,14 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Contact Us</title>
   <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
   <div class="wrapper">
     <h2>Contact Us</h2>
     <p>Please fill out this form and we will get in touch with <br> you shotly.</p>
-    <div class="error-msg"></div>
+    <div id="error-msg"></div>
 
-    <form action="" class="contact-form">
+    <form id="myform" onsubmit="return validation()">
       <label>Your Name</label>
       <div class="input-field">
         <input type="text" id="name">
