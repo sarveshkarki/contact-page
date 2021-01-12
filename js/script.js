@@ -6,7 +6,6 @@ function validation() {
   var error_msg = document.getElementById("error-msg");
   var text;
 
-
   if(name.length <5){
     text="Please enter valid name.";
     error_msg.innerHTML = text;
